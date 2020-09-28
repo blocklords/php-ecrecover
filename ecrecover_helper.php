@@ -1,7 +1,7 @@
 <?php
-require_once './CryptoCurrencyPHP/PointMathGMP.class.php';
-require_once './CryptoCurrencyPHP/SECp256k1.class.php';
-require_once './CryptoCurrencyPHP/Signature.class.php';
+require_once dirname(__FILE__).'/CryptoCurrencyPHP/PointMathGMP.class.php';
+require_once dirname(__FILE__).'/CryptoCurrencyPHP/SECp256k1.class.php';
+require_once dirname(__FILE__).'/CryptoCurrencyPHP/Signature.class.php';
 require_once './vendor/autoload.php';
 use kornrunner\Keccak;
 
